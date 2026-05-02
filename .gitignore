@@ -1,0 +1,45 @@
+# Xcode
+build/
+DerivedData/
+
+# User settings
+*.xcworkspace/xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods（使わないなら無視でもOK）
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.tmp
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Xcode archive
+*.xcarchive
+
+# IPA
+*.ipa
