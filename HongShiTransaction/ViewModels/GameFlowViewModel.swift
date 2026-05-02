@@ -118,6 +118,7 @@ final class GameFlowViewModel: ObservableObject {
     func showSettlement() {
         settlementViewModel = SettlementViewModel(
             gameLogs: gameLogs,
+            players: setupViewModel.players,
             finalTransactions: settlementCalculator.calculateFinalTransactions(players: setupViewModel.players)
         )
         screen = .settlement

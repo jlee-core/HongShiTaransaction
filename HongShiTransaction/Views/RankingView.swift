@@ -21,7 +21,7 @@ struct RankingView: View {
                             Text(player.name)
                             Spacer()
                             if let rank = player.rank {
-                                Text("\(rank)位")
+                                Text("\(viewModel.rankIcon(for: rank)) \(rank)位")
                                     .font(.headline)
                             } else {
                                 Text("未選択")

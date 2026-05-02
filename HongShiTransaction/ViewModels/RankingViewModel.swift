@@ -39,4 +39,19 @@ final class RankingViewModel: ObservableObject {
     func isSelected(_ player: Player) -> Bool {
         players.first(where: { $0.id == player.id })?.rank != nil
     }
+
+    func rankIcon(for rank: Int) -> String {
+        switch rank {
+        case 1:
+            return "🥇"
+        case 2:
+            return "🥈"
+        case 3:
+            return "🥉"
+        case 4:
+            return "🏅"
+        default:
+            return "\(rank)位"
+        }
+    }
 }

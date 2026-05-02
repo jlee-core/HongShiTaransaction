@@ -61,7 +61,7 @@ private struct PlayerResultRow: View {
             Spacer()
             Text("\(player.point) pt")
                 .font(.headline)
-                .foregroundStyle(player.point >= 0 ? Color.primary : Color.red)
+                .foregroundStyle(player.point >= 0 ? Color.green : Color.red)
         }
     }
 }
