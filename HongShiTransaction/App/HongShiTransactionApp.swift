@@ -11,7 +11,7 @@ import SwiftUI
 struct HongShiTransactionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PortalView()
         }
     }
 }
